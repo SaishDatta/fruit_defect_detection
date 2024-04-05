@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the source code from Git .
+                // Checkout the source code from Git 
+                
                 git 'https://github.com/SaishDatta/fruit_defect_detection.git'
             }
         }
