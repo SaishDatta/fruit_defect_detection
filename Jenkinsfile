@@ -23,7 +23,7 @@ pipeline {
         //         // Run tests if needed
         //         // Example: sh 'npm test'
         //     }
-        }
+        //}
 
         stage('Push') {
             steps {
