@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from Git 
-                
+
                 git 'https://github.com/SaishDatta/fruit_defect_detection.git'
             }
         }
@@ -19,11 +19,11 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                // Run tests if needed
-                // Example: sh 'npm test'
-            }
+        // stage('Test') {
+        //     steps {
+        //         // Run tests if needed
+        //         // Example: sh 'npm test'
+        //     }
         }
 
         stage('Push') {
